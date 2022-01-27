@@ -12,6 +12,6 @@ jobs:
       - name: Update gist
         uses: Roy-wonji/productive-box@master
         env:
-          GH_TOKEN: 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
-          GIST_ID: 15429bdc7b8252911dc95d9f9f3509b6
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GIST_ID: ${{ secrets.GIST_ID }}
           TIMEZONE: Asia/Seoul
